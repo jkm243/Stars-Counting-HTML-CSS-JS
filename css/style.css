@@ -10,16 +10,24 @@
   margin-top: 5%;
   
 }
-.star-rating i {
+.star-rating button {
   color: red;
   font-size: 6em;
+    text-decoration: none;
+      border: none;
+    outline: none;
+    background-color: white;
 }
-.star-rating i:hover {
+.star-rating button:hover {
   color: #ff0;
   cursor: pointer;
 }
 
-
+.sum{
+  margin-right: 5px;
+  margin-top: 5%;
+  font-size: 6em;
+}
 /* .my-element {
   display: block;
   margin: 0 auto;
